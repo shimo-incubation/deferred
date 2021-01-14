@@ -1,0 +1,32 @@
+{
+  "name": "@shimo/deferred",
+  "version": "1.0.0",
+  "description": "A javascript library implement deferred promise proposed by Mozilla.",
+  "main": "lib/deferred.js",
+  "scripts": {
+    "prebuild": "rm -rf lib",
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shimo-incubation/deffered.git"
+  },
+  "keywords": [
+    "deferred",
+    "promise"
+  ],
+  "author": "Rex Rao <sohobloo@live.cn>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shimo-incubation/deffered/issues"
+  },
+  "homepage": "https://github.com/shimo-incubation/deffered#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  },
+  "files": [
+    "/lib"
+  ]
+}
