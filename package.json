@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "A javascript library implement deferred promise proposed by Mozilla.",
   "main": "lib/deferred.js",
+  "private": false,
   "scripts": {
     "prebuild": "rm -rf lib",
     "build": "tsc",
